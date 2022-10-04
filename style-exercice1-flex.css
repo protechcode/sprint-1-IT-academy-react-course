@@ -1,0 +1,92 @@
+/* Primera versión de flex-container sin modificar */
+.flex-container {
+  display: flex;
+  background-color: #2d4059;
+  padding: 5px;
+  border-style: solid;
+  border-width: 10px;
+  max-width: 1200px;
+  justify-content: space-between;
+}
+.flex-container div {
+  background-color: #ea5455;
+  margin: 5px;
+  padding: 10px;
+  display: inline;
+  flex-wrap: wrap;
+}
+/* Probando border con el border-style y width 
+integrado en la misma linea */
+.flex-container-two{
+  display: flex;
+  background-color: #fed460;
+  padding: 5px;
+  border-width: 10px;
+  border: 10px solid;
+  max-width: 1200px;
+}
+.flex-container-two div {
+  background-color: #ea5455;
+  margin: 5px;
+  padding: 10px;
+  display: flex;
+  flex-flow: column wrap;
+}
+.main-body {
+  max-width: 1200px;
+  background-color: #4e4e6a;
+  margin: 5px;
+  padding: 10px;
+  flex-wrap: wrap;
+  border: 10px solid;
+  flex-direction: column;
+
+}
+.main-section{
+  background-color: #1f6cb0;
+  margin: 5px;
+  padding: 10px;
+}
+.main-section-two{
+  background-color: #70a3c4;
+  margin: 5px;
+  padding: 10px;
+}
+.sidebar {
+  position: right;
+  background-color: #f73f52;
+  margin: 5px;
+  padding: 10px;
+  display: width;
+  flex-wrap: wrap;
+  
+}
+.elements-sidebar{
+  background-color: #feea85;
+  margin: 5px;
+  padding: 10px;
+}
+.element1{
+  justify-content: center;
+}
+.main-body {
+  background-color: #4e4e6a;
+  padding: 5px;
+  
+}
+
+.main-section {
+}
+.sidebar {
+  background-color: #f73f52;
+}
+.footer {
+  margin: 5px;
+  padding: 10px;
+  flex-wrap: wrap;
+  border: 10px solid;
+  flex-direction: column;
+  position: static;
+  background-color: #e6af2e;
+  max-width: 1200px;
+}
